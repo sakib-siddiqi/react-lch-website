@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "title": "Web Devlopment",
+    "price": 100,
+    "cover": "web_development",
+    "ratting": 5,
+    "teacher": "Jhonkar Mahbub",
+    "teacher_img": "jhonkar"
+  },
+
+  {
+    "id": 2,
+    "title": "Android",
+    "price": 115,
+    "cover": "android",
+    "ratting": 4,
+    "teacher": "Devid Malan",
+    "teacher_img": "devid_malan"
+  },
+
+  {
+    "id": 3,
+    "title": "React.js",
+    "price": 70,
+    "cover": "react_js",
+    "ratting": 5,
+    "teacher": "Mosh",
+    "teacher_img": "mosh"
+  },
+
+  {
+    "id": 4,
+    "title": "Robotics",
+    "price": 150,
+    "cover": "robotics",
+    "ratting": 4,
+    "teacher": "CS DoJo",
+    "teacher_img": "cs_dojo"
+  },
+
+  {
+    "id": 5,
+    "title": "wordpress",
+    "price": 60,
+    "cover": "wordpress",
+    "ratting": 4,
+    "teacher": "Rino",
+    "teacher_img": "rino"
+  },
+
+  {
+    "id": 6,
+    "title": "next.js",
+    "price": 30,
+    "cover": "next_js",
+    "ratting": 4,
+    "teacher": "kevin Col",
+    "teacher_img": "kevin_col"
+  },
+
+  {
+    "id": 7,
+    "title": "NUXT.js",
+    "price": 20,
+    "cover": "nuxt_js",
+    "ratting": 4,
+    "teacher": "Puren Dow",
+    "teacher_img": "puran_dow"
+  },
+
+  {
+    "id": 8,
+    "title": "Networking",
+    "price": 75,
+    "cover": "networking",
+    "ratting": 3,
+    "teacher": "ariana",
+    "teacher_img": "ariana"
+  },
+  {
+    "id": 9,
+    "title": "HTML CSS",
+    "price": 20,
+    "cover": "html_css",
+    "ratting": 4,
+    "teacher": "Guru",
+    "teacher_img": "guru"
+  },
+  {
+    "id": 10,
+    "title": "HTML,CSS & JS",
+    "price": 35,
+    "cover": "html_css_js",
+    "ratting": 4,
+    "teacher": "Paolw",
+    "teacher_img": "paolw"
+  }
+]

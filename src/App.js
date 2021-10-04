@@ -1,16 +1,40 @@
-import { Typography } from "@mui/material";
-import { ThemeProvider } from "@mui/material";
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
-import useMyTheme from "./theme";
+import NotFound from "./Components/404/NotFound";
+import About from "./Components/About/About";
+import Courses from "./Components/Courses/Courses";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
+import useCourses from "./Components/Hooks/useCourses";
+import Teachers from "./Components/Teachers/Teachers";
 function App() {
-  const theme = useMyTheme();
   return (
-    <ThemeProvider theme={theme}>
-      <Typography variant="h3" color="secondary">
-        Hello
-      </Typography>
-    </ThemeProvider>
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/">
+          <Home></Home>
+        </Route>
+        <Route path="/home">
+          <Home></Home>
+        </Route>
+        <Route path="/about">
+          <About></About>
+        </Route>
+        <Route path="/courses">
+          <Courses></Courses>
+        </Route>
+        <Route path="/teachers">
+          <Teachers></Teachers>
+        </Route>
+        <Route exact path="*">
+          <NotFound></NotFound>
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 export default App;

@@ -1,0 +1,22 @@
+.my-btn {
+  border-radius: 6px;
+  padding: 10px 1.5rem;
+  text-decoration: none;
+  font-weight: 600 !important ;
+  transition: all 0.2s;
+  background: #6b63ff;
+  color: white;
+  box-shadow: 0px 15px 30px -10px #6b63ff80;
+}
+.my-btn:hover {
+  background: #6b63ff30;
+  box-shadow: none;
+}
+.my-outline-btn {
+  transition: all 0.2s;
+}
+.my-outline-btn:hover {
+  background: #6b63ff;
+  color: white !important;
+  box-shadow: 0px 15px 30px -10px #6b63ff80;
+}

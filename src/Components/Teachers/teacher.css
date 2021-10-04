@@ -1,0 +1,15 @@
+@import url("../../App.css");
+.teacher {
+  background: var(--primary-lite);
+  transition: all 0.2s;
+}
+.teacher:hover {
+  border: 1px dotted #6c63ff;
+}
+#teachersImg {
+  max-width: 60px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 1000px;
+  border: 4px solid var(--primary);
+}

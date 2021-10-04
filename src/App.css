@@ -1,0 +1,60 @@
+:root {
+  --primary: #6c63ff;
+  --primary-lite: #6c63ff15;
+  --lt-secondary: #f2f1ff;
+  --dr-secondary: #878787;
+  --dark: #3f3d56;
+}
+
+* {
+  letter-spacing: 1px;
+}
+section {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  margin: 2rem auto;
+}
+.text-box-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.h1,
+h2,
+h3 {
+  letter-spacing: 2px;
+}
+p {
+  letter-spacing: 1px;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.bg-primary {
+  background: var(--primary) !important;
+}
+.text-dark {
+  color: var(--dark) !important;
+}
+.bg-dark {
+  background: var(--dark) !important;
+}
+.text-lt-secondary {
+  color: var(--lt-secondary) !important;
+}
+.bg-lt-secondary {
+  background: var(--lt-secondary) !important;
+}
+.text-dr-dark {
+  color: var(--dr-secondary) !important;
+}
+.bg-dr-dark {
+  background: var(--dr-secondary) !important;
+}
+img.card-img-top {
+  border-radius: 4px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
