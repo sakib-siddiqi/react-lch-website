@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import useCourses from "../Hooks/useCourses";
 import Teacher from "./Teacher";
 const Teachers = () => {
@@ -25,6 +26,15 @@ const Teachers = () => {
           </div>
         </div>
       </section>
+      <div className="text-center mt-5">
+        <NavLink
+          to="/courses"
+          className="py-2 px-4 text-decoration-none text-primary border border-1 border-primary rounded-2 my-outline-btn"
+          style={{ fontWeight: 600 }}
+        >
+          <i className="far fa-arrow-alt-circle-right"></i> Courses
+        </NavLink>
+      </div>
       <section id="teachers" className="my-5">
         <div className="container">
           <div className="row g-4">
