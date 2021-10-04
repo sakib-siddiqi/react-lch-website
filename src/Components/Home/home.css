@@ -1,3 +1,4 @@
+/* action button styles */
 .my-btn {
   border-radius: 6px;
   padding: 10px 1.5rem;
@@ -12,6 +13,7 @@
   background: #6b63ff30;
   box-shadow: none;
 }
+/* action button outline styles */
 .my-outline-btn {
   transition: all 0.2s;
 }

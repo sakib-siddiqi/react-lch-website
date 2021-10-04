@@ -1,0 +1,9 @@
+@import url("../../App.css");
+/* cool 3d text */
+.Text404 {
+  font-size: 10vw !important;
+  text-shadow: 1px 1px 0 var(--dr-secondary), 2px 2px 0 var(--dr-secondary),
+    3px 3px 0 var(--dr-secondary), 4px 4px 0 var(--dr-secondary),
+    5px 5px 0 var(--dr-secondary), 6px 6px 0 var(--dr-secondary),
+    7px 7px 0 var(--dr-secondary), 8px 8px 20px var(--dr-secondary);
+}

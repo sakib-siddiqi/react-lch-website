@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import "./notFound.css";
 const NotFound = () => {
   return (
     <section className="my-5">
@@ -17,7 +17,7 @@ const NotFound = () => {
           {/* Meet Our teachers  text*/}
           <div className="col-12 col-sm-12 col-md-6 text-box-center align-items-center">
             <h1 className="text-primary  fw-bold text-center">!!!</h1>
-            <h1 className="text-dark  fw-bold text-center">404</h1>
+            <h1 className="text-dark  fw-bold text-center Text404">404</h1>
             <p className="text-dr-secondary text-center">
               This page does not exist !!!
             </p>
