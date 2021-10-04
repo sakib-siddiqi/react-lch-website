@@ -6,7 +6,9 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-primary shadow-sm">
       <div className="container">
-        <div className="navbar-brand fw-bold fst-italic text-white">LCH</div>
+        <div className="navbar-brand fw-bold fst-italic text-white">
+          <img src="./logo.png" alt="logo" className="img-fluid rounded-2" />
+        </div>
         <button
           className="navbar-toggler"
           type="button"
