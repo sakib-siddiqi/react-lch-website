@@ -1,8 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import HomeImg from "./home_img.svg";
+// import HomeImg from "./home_img.svg";
 import TopCourses from "./TopCourses";
 import "./home.css";
+import HomeImg from "../../svg_img/HomeImg";
 const Home = () => {
   return (
     <>
@@ -26,7 +27,12 @@ const Home = () => {
             </div>
             {/* home img */}
             <div className="col-12 col-sm-12 col-md-5">
-              <img src={HomeImg} className="img-fluid" alt="" />
+              {/* <img
+                src="./Images/Home_images/home_img.svg"
+                className="img-fluid"
+                alt=""
+              /> */}
+              <HomeImg />
             </div>
           </div>
         </div>

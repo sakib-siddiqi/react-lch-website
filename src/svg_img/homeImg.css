@@ -1,0 +1,38 @@
+#leep,
+#leep2,
+#leep3,
+#apple {
+  transform-box: fill-box;
+  transform-origin: bottom;
+}
+#leep {
+  animation: leepAnimation 5s ease 0s infinite;
+}
+#leep2 {
+  animation: leepAnimation 5s ease 1s infinite;
+}
+#leep3 {
+  animation: leepAnimation 5s ease 2s infinite;
+}
+#apple {
+  animation: apple 1s ease-in-out 0s infinite;
+}
+@keyframes leepAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes apple {
+  50% {
+    fill: rgb(116, 116, 116);
+  }
+}

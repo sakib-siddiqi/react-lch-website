@@ -27,7 +27,7 @@ const TopCourses = () => {
             className="py-2 px-4 text-decoration-none text-primary border border-1 border-primary rounded-2 my-outline-btn"
             style={{ fontWeight: 600 }}
           >
-            <i className="far fa-arrow-alt-circle-right"></i> Courses
+            <i className="far fa-arrow-alt-circle-right"></i> See All Courses
           </NavLink>
         </div>
       </div>
