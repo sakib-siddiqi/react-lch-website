@@ -8,7 +8,7 @@ const Course = (props) => {
       <article className="card p-2 border-0 bg-primary" id="course">
         <img
           src={`./Images/Courses_images/${cover}.png`}
-          className="card-img-top"
+          className="card-img-top shadow"
           alt=""
         ></img>
         <div className="card-body">
@@ -16,7 +16,7 @@ const Course = (props) => {
             <i className="fas fa-hand-point-right"></i> {title}{" "}
             <i className="fas fa-hand-point-left"></i>
           </h5>
-          <p className="mb-1 text-lt-secondary">{teacher}</p>
+          <p className="mb-1 text-lt-secondary teacher-name">{teacher}</p>
           <Rating
             readonly
             initialRating={ratting}

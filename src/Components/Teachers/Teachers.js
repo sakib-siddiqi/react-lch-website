@@ -2,6 +2,9 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import useCourses from "../Hooks/useCourses";
 import Teacher from "./Teacher";
+// =========================
+// =======teachers==========
+// =========================
 const Teachers = () => {
   const courses = useCourses();
   return (
@@ -11,9 +14,14 @@ const Teachers = () => {
           <div className="row g-5">
             {/* Meet Our teachers  text*/}
             <div className="col-12 col-sm-12 col-md-6 text-box-center">
-              <h1 className="text-primary">MEET !</h1>
-              <h3 className="text-dark">OUR TEACHERS</h3>
-              <p className="text-dr-secondary">Wanna know more ?</p>
+              <h1 className="text-primary fw-bold">MEET !</h1>
+              <h3 className="text-dark fw-bold">OUR TEACHERS</h3>
+              <p className="text-muted ">Wanna know more ?</p>
+              <p className="text-dark w-75">
+                We are 10 programmers . We teach programming and other tech
+                skills..
+                <span className="fw-bold h4 text-primary"> WOW !!! </span>
+              </p>
             </div>
             {/* Meet Our teachers  text*/}
             <div className="col-12 col-sm-12 col-md-6">

@@ -7,8 +7,10 @@ import Courses from "./Components/Courses/Courses";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
-import useCourses from "./Components/Hooks/useCourses";
 import Teachers from "./Components/Teachers/Teachers";
+// =========================
+// laoding data by useing useCourses custom hook
+// =========================
 function App() {
   return (
     <Router>

@@ -1,7 +1,14 @@
+@import url("../../App.css");
 #course {
   box-shadow: 0px 45px 45px -30px rgba(108, 99, 255, 0.5);
+}
+#course:hover {
+  background: var(--dark) !important;
 }
 .heading {
   border-bottom: 4px solid #6b63ff;
   padding-bottom: 0.7rem;
+}
+.teacher-name {
+  font-size: 14px;
 }

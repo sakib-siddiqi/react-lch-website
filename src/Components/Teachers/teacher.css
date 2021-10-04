@@ -4,7 +4,13 @@
   transition: all 0.2s;
 }
 .teacher:hover {
-  border: 1px dotted #6c63ff;
+  background: var(--primary);
+}
+.teacher:hover span {
+  color: white !important;
+}
+.teacher:hover img {
+  border-color: white !important;
 }
 #teachersImg {
   max-width: 60px;

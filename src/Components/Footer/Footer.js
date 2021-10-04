@@ -1,7 +1,10 @@
 import React from "react";
 import Menu from "../Header/Menu";
 import Contacts from "./Contacts";
-
+import "./footer.css";
+// =========================
+// =======footer==========
+// =========================
 const Footer = () => {
   return (
     <footer className="py-5 bg-dark sticky-bottom">

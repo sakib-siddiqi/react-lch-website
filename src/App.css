@@ -61,3 +61,6 @@ img.card-img-top {
 svg {
   max-width: 100%;
 }
+.lh {
+  line-height: 28px !important;
+}
