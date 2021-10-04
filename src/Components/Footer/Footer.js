@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="py-5 bg-dark sticky-bottom">
       <div className="container">
-        <div className="row gy-5">
+        <div className="row">
           <div className="col-12 col-md-6 col-lg-4">
             <h1 className="fw-bold fst-italic text-light">LCH</h1>
             <div className="text-light">Learn Code from Home</div>
