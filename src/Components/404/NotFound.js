@@ -5,7 +5,7 @@ const NotFound = () => {
   return (
     <section className="my-5">
       <div className=" container">
-        <div className="row g-5">
+        <div className="row">
           {/* Meet Our teachers  text*/}
           <div className="col-12 col-sm-12 col-md-6">
             <img

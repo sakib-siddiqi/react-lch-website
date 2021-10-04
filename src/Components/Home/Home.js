@@ -12,7 +12,7 @@ const Home = (props) => {
     <>
       <section className="my-5">
         <div className="container">
-          <div className="row g-5">
+          <div className="row">
             {/* Home Texts */}
             <div className="col-12 col-sm-12 col-md-7 text-box-center">
               <h5 className="text-dark">Learn</h5>

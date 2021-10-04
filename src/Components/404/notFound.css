@@ -3,7 +3,5 @@
 .Text404 {
   font-size: 10vw !important;
   text-shadow: 1px 1px 0 var(--dr-secondary), 2px 2px 0 var(--dr-secondary),
-    3px 3px 0 var(--dr-secondary), 4px 4px 0 var(--dr-secondary),
-    5px 5px 0 var(--dr-secondary), 6px 6px 0 var(--dr-secondary),
-    7px 7px 10px var(--primary), 8px 8px 30px #6675ff50;
+    3px 3px 0 var(--dr-secondary), 5px 5px 15px #6675ff50;
 }
