@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import ActionBtn from "../Home/ActionBtn";
 
 const About = () => {
   return (
@@ -19,13 +19,7 @@ const About = () => {
               </p>
             </p>
 
-            <NavLink
-              to="/courses"
-              className="my-btn"
-              style={{ fontWeight: 600 }}
-            >
-              <i className="far fa-arrow-alt-circle-right"></i> Courses
-            </NavLink>
+            <ActionBtn>All Course</ActionBtn>
           </div>
           {/* Meet Our teachers  text*/}
           <div className="col-12 col-sm-12 col-md-6">

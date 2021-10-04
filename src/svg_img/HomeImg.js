@@ -10,7 +10,7 @@ const HomeImg = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g id="undraw_voice_interface_eckp (1) 1" clip-path="url(#clip0)">
+        <g id="undraw_voice_interface_eckp (1) 1" clipPath="url(#clip0)">
           <path
             id="leep3"
             d="M142.753 366.839C126.599 391.605 131.025 423.105 131.025 423.105C131.025 423.105 161.641 414.45 177.794 389.684C193.947 364.918 189.521 333.419 189.521 333.419C189.521 333.419 158.906 342.073 142.753 366.839Z"
@@ -25,8 +25,8 @@ const HomeImg = () => {
             id="Vector"
             d="M119.298 366.839C135.451 391.605 131.025 423.105 131.025 423.105C131.025 423.105 100.41 414.45 84.2565 389.684C68.1033 364.918 72.5293 333.419 72.5293 333.419C72.5293 333.419 103.145 342.073 119.298 366.839Z"
             stroke="#3F3D56"
-            stroke-width="2"
-            stroke-miterlimit="10"
+            strokeWidth="2"
+            strokeMiterlimit="10"
           />
           <path
             id="Vector_2"
@@ -44,8 +44,8 @@ const HomeImg = () => {
               id="Vector_4"
               d="M131.678 422.963L136.5 318.035"
               stroke="#3F3D56"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
           </g>
           <path
@@ -182,7 +182,7 @@ const HomeImg = () => {
             d="M552.492 349.137C561.662 349.137 569.096 347.559 569.096 345.611C569.096 343.664 561.662 342.086 552.492 342.086C543.321 342.086 535.887 343.664 535.887 345.611C535.887 347.559 543.321 349.137 552.492 349.137Z"
             fill="#3F3D56"
             stroke="#6C63FF"
-            stroke-miterlimit="10"
+            strokeMiterlimit="10"
           />
           <g id="Group" opacity="0.8">
             <path

@@ -1,7 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import Course from "../Courses/Course";
 import useCourses from "../Hooks/useCourses";
+import ActionBtn from "./ActionBtn";
 
 const TopCourses = () => {
   const courses = useCourses();
@@ -22,13 +22,7 @@ const TopCourses = () => {
           ))}
         </div>
         <div className="text-center mt-5">
-          <NavLink
-            to="/courses"
-            className="py-2 px-4 text-decoration-none text-primary border border-1 border-primary rounded-2 my-outline-btn"
-            style={{ fontWeight: 600 }}
-          >
-            <i className="far fa-arrow-alt-circle-right"></i> See All Courses
-          </NavLink>
+          <ActionBtn>See All Courses</ActionBtn>
         </div>
       </div>
     </section>

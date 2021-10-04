@@ -1,12 +1,13 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import TopCourses from "./TopCourses";
 import "./home.css";
 import HomeImg from "../../svg_img/HomeImg";
+import ActionBtn from "./ActionBtn";
 // =========================
 // =======header==========
 // =========================
-const Home = () => {
+const Home = (props) => {
+  console.log(props);
   return (
     <>
       <section className="my-5">
@@ -20,13 +21,7 @@ const Home = () => {
               <p className="text-dr-secondary">Be an expart in Coding.</p>
               <p className="text-primary mb-0">#happyCoading</p>
               <p className="text-primary">#LearnCode</p>
-              <NavLink
-                to="/courses"
-                className="my-btn"
-                style={{ fontWeight: 600 }}
-              >
-                <i className="far fa-arrow-alt-circle-right"></i> Courses
-              </NavLink>
+              <ActionBtn>Courses</ActionBtn>
             </div>
             {/* home img */}
             <div className="col-12 col-sm-12 col-md-5">
