@@ -1,6 +1,6 @@
 import React from "react";
 import Rating from "react-rating";
-import ActionBtn from "./ActionBtn";
+import CourseActionBtn from "./CourseActionBtn";
 import "./course.css";
 const Course = (props) => {
   const { title, cover, teacher, ratting, id } = props.course;
@@ -29,7 +29,7 @@ const Course = (props) => {
             style={{ color: "gold" }}
           ></Rating>
         </div>
-        <ActionBtn id={id} />
+        <CourseActionBtn id={id} />
       </article>
     </div>
   );

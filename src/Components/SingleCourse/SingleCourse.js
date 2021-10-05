@@ -1,6 +1,8 @@
 import React from "react";
 import Rating from "react-rating";
 import { useParams } from "react-router";
+import { NavLink } from "react-router-dom";
+import ActionBtn from "../Home/ActionBtn";
 import useCourses from "../Hooks/useCourses";
 import Teacher from "../Teachers/Teacher";
 
@@ -19,6 +21,8 @@ const SingleCourse = () => {
               <h3 className="text-primary mb-2 price fw-bold bg-lt-secondary px-4 py-2 rounded-3">
                 $ {course?.price}
               </h3>
+
+              {/* rating */}
               <Rating
                 readonly
                 initialRating={course?.ratting}
@@ -27,7 +31,20 @@ const SingleCourse = () => {
                 style={{ color: "gold" }}
                 className="mb-5"
               ></Rating>
+
+              {/* teachers */}
               {course ? <Teacher teacher={course}></Teacher> : <></>}
+
+              {/* enroll btn */}
+              <NavLink
+                to="/orders"
+                className="my-btn mt-4"
+                style={{ fontWeight: 600 }}
+              >
+                <i className="fas fa-shopping-cart"></i>
+                {"  "}
+                Enroll Now
+              </NavLink>
             </div>
             {/* home img */}
             <div className="col-12 col-sm-12 col-md-5">
@@ -37,6 +54,9 @@ const SingleCourse = () => {
                 className="img-fluid"
               />
             </div>
+          </div>
+          <div className="text-center mt-5">
+            <ActionBtn>All Courses</ActionBtn>
           </div>
         </div>
       </section>

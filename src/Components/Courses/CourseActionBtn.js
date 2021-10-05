@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import ActionBtnSVG from "../../svg_img/ActionBtnSVG";
 
-const ActionBtn = (props) => {
+const CourseActionBtn = (props) => {
   return (
     <NavLink to={`/courses/${props.id}`}>
       <div
@@ -15,4 +15,4 @@ const ActionBtn = (props) => {
   );
 };
 
-export default ActionBtn;
+export default CourseActionBtn;

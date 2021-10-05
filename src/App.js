@@ -4,6 +4,7 @@ import "./App.css";
 import NotFound from "./Components/404/NotFound";
 import About from "./Components/About/About";
 import Courses from "./Components/Courses/Courses";
+import Orders from "./Components/Courses/Orders";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
@@ -34,6 +35,9 @@ function App() {
         </Route>
         <Route path="/teachers">
           <Teachers></Teachers>
+        </Route>
+        <Route path="/orders">
+          <Orders></Orders>
         </Route>
         <Route exact path="*">
           <NotFound></NotFound>
