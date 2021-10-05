@@ -9,7 +9,7 @@ const Orders = () => {
         <h3 className="text-primary bg-lt-secondary p-2 mb-5">Enrolled</h3>
         <Rocket />
         <div className="text-center mt-5">
-          <ActionBtn>Back To Home</ActionBtn>
+          <ActionBtn>All Curses</ActionBtn>
         </div>
       </div>
     </section>

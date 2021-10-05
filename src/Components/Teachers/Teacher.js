@@ -4,7 +4,7 @@ const Teacher = (props) => {
   const { teacher, teacher_img } = props.teacher;
   console.log(teacher_img);
   return (
-    <div className="col-12 col-sm-12 col-md-4 col-lg-3">
+    <div className="col">
       <article className="rounded-3 pe-3 ps-2 py-2 fw-bold teacher">
         <img
           src={`/Images/Teachers/${teacher_img}.jpg`}

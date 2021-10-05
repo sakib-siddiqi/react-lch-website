@@ -14,7 +14,7 @@ const SingleCourse = () => {
     <>
       <section className="my-5">
         <div className="container">
-          <div className="row gy-5">
+          <div className="row gy-5 flex-column-reverse flex-md-row">
             {/* Home Texts */}
             <div className="col-12 col-sm-12 col-md-7 text-box-center">
               <h1 className="text-primary fw-bold mb-4">{course?.title}</h1>
@@ -41,7 +41,7 @@ const SingleCourse = () => {
                 className="my-btn mt-4"
                 style={{ fontWeight: 600 }}
               >
-                <i className="fas fa-shopping-cart"></i>
+                <i className="far fa-shopping-cart"></i>
                 {"  "}
                 Enroll Now
               </NavLink>
