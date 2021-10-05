@@ -10,7 +10,7 @@ const Courses = () => {
         {/* Heading */}
         <div className="text-center">
           <h3 className="text-center mb-5 d-inline-block heading">
-            <i class="fas fa-th text-primary"></i>
+            <i className="fas fa-th text-primary"></i>
             {"  "}
             <span className="text-dark">{courses?.length} Courses</span>
           </h3>

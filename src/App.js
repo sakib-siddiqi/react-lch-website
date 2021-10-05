@@ -7,6 +7,7 @@ import Courses from "./Components/Courses/Courses";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
+import SingleCourse from "./Components/SingleCourse/SingleCourse";
 import Teachers from "./Components/Teachers/Teachers";
 // =========================
 // laoding data by useing useCourses custom hook
@@ -25,8 +26,11 @@ function App() {
         <Route path="/about">
           <About></About>
         </Route>
-        <Route path="/courses">
+        <Route exact path="/courses">
           <Courses></Courses>
+        </Route>
+        <Route path="/courses/:id">
+          <SingleCourse></SingleCourse>
         </Route>
         <Route path="/teachers">
           <Teachers></Teachers>

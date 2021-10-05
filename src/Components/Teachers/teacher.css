@@ -2,6 +2,9 @@
 .teacher {
   background: var(--primary-lite);
   transition: all 0.2s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .teacher:hover {
   background: var(--primary);

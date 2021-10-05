@@ -1,11 +1,15 @@
 import React from "react";
 import Rating from "react-rating";
+import ActionBtn from "./ActionBtn";
 import "./course.css";
 const Course = (props) => {
-  const { title, cover, teacher, ratting } = props.course;
+  const { title, cover, teacher, ratting, id } = props.course;
   return (
     <div className="col-12 col-sm-12 col-md-4 col-lg-3">
-      <article className="card p-2 border-0 bg-primary" id="course">
+      <article
+        className="card p-2 border-0 bg-primary positon-relative"
+        id="course"
+      >
         <img
           src={`./Images/Courses_images/${cover}.png`}
           className="card-img-top shadow"
@@ -25,6 +29,7 @@ const Course = (props) => {
             style={{ color: "gold" }}
           ></Rating>
         </div>
+        <ActionBtn id={id} />
       </article>
     </div>
   );

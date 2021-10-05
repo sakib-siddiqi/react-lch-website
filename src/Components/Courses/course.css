@@ -12,3 +12,14 @@
 .teacher-name {
   font-size: 14px;
 }
+/* action Button */
+#actionBtn {
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  background: #eeedff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
