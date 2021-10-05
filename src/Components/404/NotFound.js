@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import NotFoundSVG from "../../svg_img/NotFoundSVG";
 import "./notFound.css";
 const NotFound = () => {
   return (
@@ -8,11 +9,12 @@ const NotFound = () => {
         <div className="row">
           {/* Meet Our teachers  text*/}
           <div className="col-12 col-sm-12 col-md-6">
-            <img
+            {/* <img
               src="./images/404_&_About_images/404_img.svg"
               alt="teachers page"
               className="img-fluid"
-            />
+            /> */}
+            <NotFoundSVG />
           </div>
           {/* Meet Our teachers  text*/}
           <div className="col-12 col-sm-12 col-md-6 text-box-center align-items-center">

@@ -1,0 +1,10 @@
+#what {
+  transform-origin: top;
+  transform-box: fill-box;
+  animation: what 2s ease 0s infinite forwards;
+}
+@keyframes what {
+  50% {
+    transform: rotateZ(10deg);
+  }
+}

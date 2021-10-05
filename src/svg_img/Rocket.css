@@ -1,9 +1,17 @@
 #rocket {
-  animation: rocket 4s ease-in infinite both;
-  transform: translate(70%, 90%);
+  animation: rocket 5s ease infinite both;
+  transform: translate(3%, 4%);
+}
+#stars {
+  animation: stars 2s ease 0s infinite both;
 }
 @keyframes rocket {
-  100% {
-    transform: translate(-70%, -90%);
+  50% {
+    transform: translate(-3%, -4%);
+  }
+}
+@keyframes stars {
+  50% {
+    transform: translate(10px, 5px);
   }
 }
