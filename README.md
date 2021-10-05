@@ -8,6 +8,8 @@ we teach you coding in online class .
 
 <a href="https://lch-s15.netlify.app">Visite Our Curses</a>
 
+## SVG ANIMATION 😱😱
+
 ### Why LCH ??🤷‍♀️
 
 <ul>
