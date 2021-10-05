@@ -1,21 +1,21 @@
 #oneTri,
 #bigTei {
-  opacity: 0;
+  opacity: 0.5;
   transition: all 0.1s;
 }
 #oneTri {
   fill: #08008c;
   transform: translateX(-15px);
-  animation: actionBtnAnimation 2s ease-in-out 2.1s infinite forwards;
+  animation: actionBtnAnimation 3s ease-in-out 3s infinite forwards;
 }
 #bigTei {
   fill: #8c85ff;
   transform: translateX(-5px);
-  animation: actionBtnAnimation 2s ease 0s infinite both;
+  animation: actionBtnAnimation 3s ease 0s infinite both;
 }
 @keyframes actionBtnAnimation {
   50% {
-    transform: translateX(5px);
+    transform: translateX(10px);
     opacity: 1;
   }
 }

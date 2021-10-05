@@ -16,7 +16,7 @@ const Course = (props) => {
           alt=""
         ></img>
         <div className="card-body">
-          <h5 className="mb-2 text-white">
+          <h5 className="mb-2 text-white fw-medium py-1 px-2">
             <i className="fas fa-hand-point-right"></i> {title}{" "}
             <i className="fas fa-hand-point-left"></i>
           </h5>

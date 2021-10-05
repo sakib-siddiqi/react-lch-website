@@ -2,7 +2,6 @@ import React from "react";
 import "./teacher.css";
 const Teacher = (props) => {
   const { teacher, teacher_img } = props.teacher;
-  console.log(teacher_img);
   return (
     <div className="col">
       <article className="rounded-3 pe-3 ps-2 py-2 fw-bold teacher">
@@ -13,7 +12,9 @@ const Teacher = (props) => {
           alt={teacher}
         />
         {"   "}
-        <span className="d-inline-block h5 text-primary">{teacher}</span>
+        <span className="d-inline-block h5 text-primary fw-medium">
+          {teacher}
+        </span>
       </article>
     </div>
   );

@@ -13,7 +13,7 @@ const TopCourses = () => {
         <div className="text-center">
           <h3 className="text-center mb-5 d-inline-block heading">
             <i className="fas fa-th-large text-primary"></i>{" "}
-            <span className="text-dark">Top Courses</span>
+            <span className="text-dark fw-medium">Top Courses</span>
           </h3>
         </div>
         <div className="row g-3">

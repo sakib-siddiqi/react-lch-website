@@ -6,13 +6,12 @@ import ActionBtn from "./ActionBtn";
 // =========================
 // =======header==========
 // =========================
-const Home = (props) => {
-  console.log(props);
+const Home = () => {
   return (
     <>
       <section className="my-5">
         <div className="container">
-          <div className="row">
+          <div className="row flex-column-reverse flex-md-row">
             {/* Home Texts */}
             <div className="col-12 col-sm-12 col-md-7 text-box-center">
               <h5 className="text-dark">Learn</h5>

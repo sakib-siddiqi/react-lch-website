@@ -1,11 +1,9 @@
 #rocket {
-  animation: rocket 4s ease infinite forwards;
+  animation: rocket 4s ease-in infinite both;
+  transform: translate(70%, 90%);
 }
 @keyframes rocket {
-  50% {
-    transform: translate(-2%, -5%);
-  }
-  75% {
-    transform: translate(10%, 15%);
+  100% {
+    transform: translate(-70%, -90%);
   }
 }
